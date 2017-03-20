@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <script>
+		var version = "<%= version %>";
+		var isDevEnviroment = <%= isDevEnviroment %>;
+	</script>
+    <script src="config.js?cb=<%= version %>"></script>
+    <link rel="stylesheet" href="assets/css/main.css?cb=<%= version %>" />
+</head>
+<body class="<%= isDevEnviroment ? 'development' : 'production' %>">
+    
+    <!-- <content> -->
+    <div id="application-root"></div>
+    <!-- </content> -->
+
+    <% if(isDevEnviroment) { %>
+    <script src="bundle.js?cb=<%= version %>"></script>
+    <%}else{%> 
+    <script src="bundle.min.js?cb=<%= version %>"></script>
+    <%}%>
+</body>
+</html>

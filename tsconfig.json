@@ -1,0 +1,25 @@
+{
+
+    "compilerOptions": {
+        "module": "commonJS",
+        "target": "es5",
+        "noImplicitAny":  false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "dist/"
+    },
+
+    "include": [
+        "src/**/*.ts",
+        "src/config.ts",
+        "typings/globals.d.ts"
+    ],
+   
+    "exclude": [
+        "node_modules",
+        "src/specs",
+        "typings/backbone.marionette/index.d.ts",
+        "typings/backbone/index.d.ts"
+    ]
+}
