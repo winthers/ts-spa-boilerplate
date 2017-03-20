@@ -20,8 +20,5 @@ export class RootView extends Marionette.View<any> {
 		super(options);
 		this.radio = options.radio;
 	}
-	onAttach () {
-		
-		//this.showChildView("rootComponentRegion", this.rootView);
-	}
+	onAttach () {}
 }
