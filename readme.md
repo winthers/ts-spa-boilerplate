@@ -12,11 +12,17 @@
 
 
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Boilerplate Project for creating Javascript Applications:
+- typescript
+- karma + jasmin
+
+This version of the SPA runs Backbone.Marionette 
 
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+
+- Remember to update the *title* in the package.json
 
 **Installation**
 
