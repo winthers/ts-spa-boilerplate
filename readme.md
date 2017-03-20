@@ -12,7 +12,7 @@
 
 
 # Introduction 
-Boilerplate Project for creating Javascript Applications:
+Boilerplate Project for creating Javascript Web Applications:
 - typescript
 - karma + jasmin
 
